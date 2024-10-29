@@ -1,0 +1,65 @@
+body{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+#contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedorTable{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    
+}
+
+table{
+    table-layout: fixed;
+    border: 1px bisque solid;
+    width: 100%;
+    
+}
+
+#cajaCant{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#cajaCant input{
+    width: 20%;
+}
+
+
+
+#cesta{
+    background-color: bisque;
+    display: flexbox;
+    flex-direction: row;
+    width: 30%;
+}
+
+#carritoLleno{
+    background-color: beige;
+    padding: 10px;
+}
+
+#carritoLleno p {
+    color: #333; /* Color del texto */
+    font-size: 15px; /* Tamaño de la fuente */
+    margin: 10px 10px; /* Margen superior e inferior */
+    padding: 10px; /* Relleno interior */
+    background-color: #f9f9f9; /* Color de fondo */
+  
+}
+
+#total{
+    font-weight: bold;
+}
